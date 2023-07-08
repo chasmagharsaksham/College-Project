@@ -1,0 +1,553 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* nav bar css start */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  transition: all 0.2s;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  color: white;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  align-items: right;
+  font-size: 18px;
+  padding: 0px;
+  justify-content: space-between;
+}
+.navbar ul li {
+  padding: 10px;
+  margin: 10px;
+  margin-top: 10px;
+}
+.logo {
+  margin-top: 19px;
+  margin-left: 22px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.navbar ul li ul.dropdown li {
+  display: block;
+}
+.navbar ul li ul.dropdown {
+  width: 15%;
+  background: black;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  border: 1px solid white;
+  margin-top: 10px;
+  margin-right: 5px;
+  font-size: 13px;
+}
+.navbar ul li:hover {
+  border-bottom: 2px solid white;
+}
+.navbar ul li:hover ul.dropdown {
+  display: block;
+}
+.navbar ul li:hover ul.dropdown li {
+  border-bottom: 1px solid white;
+}
+
+/* nav bar css end */
+/* footer css start  */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(32, 31, 31);
+  margin-top: 76px;
+}
+.contact {
+  margin-left: 10px;
+}
+.company ul {
+  list-style: none;
+  color: white;
+}
+.contact ul {
+  list-style: none;
+  color: white;
+}
+.faculties ul {
+  list-style: none;
+  color: white;
+}
+.company ul li {
+  padding: 12px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.contact ul li {
+  padding: 12px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.faculties ul li {
+  padding: 12px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.company ul h1 {
+  font-size: 27px;
+}
+.contact ul h1 {
+  font-size: 27px;
+}
+.faculties ul h1 {
+  font-size: 27px;
+}
+.company ul li a {
+  text-decoration: none;
+  color: white;
+}
+.contact ul li a {
+  text-decoration: none;
+  color: white;
+}
+.faculties ul li a {
+  text-decoration: none;
+  color: white;
+}
+/* footer css end */
+/* top banner start */
+.top {
+  display: flex;
+  height: 498px;
+  background-color: rgb(209, 209, 209);
+  justify-content: space-between;
+}
+.top .text h1 {
+  font-weight: 700;
+  font-size: 48px;
+  font-family: "Popins", sans-serif;
+  line-height: 55px;
+}
+.top button {
+  cursor: pointer;
+  margin-top: 19px;
+  border: none;
+  background-color: rgb(32, 31, 31);
+  padding: 10px;
+  color: white;
+  border-radius: 4px;
+  width: 126px;
+  height: 45px;
+  font-family: "Popins", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+.top .text {
+  margin-left: 100px;
+  margin-top: 95px;
+}
+.top .image {
+  margin-right: 50px;
+  background-color: rgb(161, 161, 161);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.top .image img {
+  height: 498px;
+  width: 569px;
+}
+.top .text p {
+  color: #495057;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "Popins", sans-serif;
+}
+/* top banner end */
+/* Introduction start */
+/* Principal Start */
+.card {
+  background-color: rgb(188, 187, 187);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  height: 350px;
+}
+.card .para {
+  width: 840px;
+  height: 200px;
+  padding: 27px;
+  font-family: "Poppins", sans-serif;
+}
+.card .para h1 {
+  font-family: "Monsterrat", sans-serif;
+}
+
+.card img {
+  padding-left: 84px;
+  padding-top: 67px;
+  padding-right: 84px;
+}
+.card .para button {
+  background-color: #f33f3f;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 300;
+  padding: 10px 20px;
+  border-radius: 40px;
+  display: inline-block;
+  cursor: pointer;
+  border: 0px;
+  margin-top: 3px;
+}
+.card .para a {
+  color: #fff;
+  text-decoration: none;
+}
+/* Principal end */
+/* Introduction end */
+/* Faculty members start */
+.faculty_member {
+  align-items: center;
+}
+.btn {
+  cursor: pointer;
+  margin-left: 515px;
+  margin-right: 515px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(237, 87, 87);
+  color: white;
+  /* background-color: rgb(189, 188, 188); */
+  text-align: center;
+  border-radius: 41px;
+  padding: 16px;
+  font-family: "Monsterrat", sans-serif;
+  width: 14%;
+}
+#table {
+  display: none;
+  border: 1px solid black;
+  margin-left: 366px;
+  margin-right: 353px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.member table th td {
+  padding: 30px;
+}
+td {
+  padding: 6px;
+}
+th {
+  padding: 6px;
+}
+/* Faculty member end */
+/* heading container start */
+/* Faculty start */
+.heading_container h1::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 5px;
+  background: #f7444e;
+  margin: 10px auto 10px;
+}
+.heading_container h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Monsterrat", sans-serif;
+}
+.heading_container {
+  margin-bottom: 66px;
+  margin-top: 95px;
+}
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Monsterrat", sans-serif;
+  margin-bottom: 114px;
+}
+.box1 {
+  text-align: center;
+  margin-top: 45px;
+  background-color: #002c3e;
+  border-radius: 14px;
+  color: #ffffff;
+  /* margin-left: 30px;
+  margin-right: 30px; */
+  padding: 45px 50px;
+  width: 225px;
+}
+.box2 {
+  text-align: center;
+  margin-top: 45px;
+  background-color: #002c3e;
+  border-radius: 14px;
+  color: #ffffff;
+  /* margin-left: 30px;
+  margin-right: 30px; */
+  padding: 45px 50px;
+  width: 225px;
+}
+.box3 {
+  text-align: center;
+  margin-top: 45px;
+  background-color: #002c3e;
+  border-radius: 14px;
+  color: #ffffff;
+  /* margin-left: 30px;
+  margin-right: 30px; */
+  padding: 45px 50px;
+  width: 225px;
+}
+.box1 h1 {
+  font-size: 21px;
+}
+.box2 h1 {
+  font-size: 21px;
+}
+.box3 h1 {
+  font-size: 21px;
+}
+.box1 p {
+  font-size: 16px;
+}
+.box2 p {
+  font-size: 16px;
+}
+.box3 p {
+  font-size: 16px;
+}
+.box1 i {
+  size: 30px;
+}
+.box1h {
+  text-align: center;
+  margin-top: 45px;
+  background-color: #002c3e;
+  border-radius: 14px;
+  color: #ffffff;
+  /* margin-left: 30px;
+  margin-right: 30px; */
+  padding: 45px 50px;
+  width: 338px;
+}
+.box1h h1 {
+  font-size: 21px;
+}
+.box1 p {
+  font-size: 16px;
+}
+.box2c {
+  text-align: center;
+  margin-top: 45px;
+  background-color: #002c3e;
+  border-radius: 14px;
+  color: #ffffff;
+  /* margin-left: 30px;
+  margin-right: 30px; */
+  padding: 45px 50px;
+  width: 338px;
+}
+.box2 h1 {
+  font-size: 21px;
+}
+.box2c p {
+  font-size: 16px;
+}
+/* Heading container end */
+/* Faculties end */
+/* student start */
+.what_student {
+  padding-top: 50px;
+  margin-bottom: 102px;
+}
+.what_student h1:after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 5px;
+  background: #f7444e;
+  margin: 10px auto 10px;
+}
+.what_student h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Monsterrat", sans-serif;
+  padding-top: 62x;
+}
+.student1 {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 102px;
+  margin-left: 102px;
+  height: 416px;
+}
+.student2 {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 102px;
+  margin-left: 102px;
+  height: 416px;
+  margin-top: 90px;
+}
+.student1 .sadikshya {
+  text-align: center;
+  margin-top: 45px;
+  background-color: #002c3e;
+  border-radius: 14px;
+  color: #ffffff;
+  padding: 45px 50px;
+  width: 338px;
+  height: 309px;
+}
+.student1 .sadikshya h2 {
+  margin-bottom: 10px;
+}
+.student1 h2 {
+  font-family: "Monsterrat", sans-serif;
+}
+.student1 p {
+  font-family: "Popins", sans-serif;
+}
+.student2 h2 {
+  font-family: "Monsterrat", sans-serif;
+}
+.student2 p {
+  font-family: "Popins", sans-serif;
+}
+.student2 .nitesh {
+  text-align: center;
+  margin-top: 45px;
+  background-color: #002c3e;
+  border-radius: 14px;
+  color: #ffffff;
+  padding: 45px 50px;
+  width: 338px;
+  height: 309px;
+}
+.student2 .nitesh h2 {
+  margin-bottom: 10px;
+  padding-top: 40px;
+}
+.student1 h2 {
+  font-family: "Monsterrat", sans-serif;
+}
+.student1 p {
+  font-family: "Popins", sans-serif;
+}
+.student1 .sabin {
+  text-align: center;
+  margin-top: 45px;
+  background-color: #002c3e;
+  border-radius: 14px;
+  color: #ffffff;
+  padding: 45px 50px;
+  width: 338px;
+  height: 309px;
+}
+.student1 .sabin h2 {
+  padding-top: 37px;
+}
+.student2 .ankit {
+  text-align: center;
+  margin-top: 45px;
+  background-color: #002c3e;
+  border-radius: 14px;
+  color: #ffffff;
+  padding: 45px 50px;
+  width: 338px;
+  height: 309px;
+}
+.student2 .ankit h2 {
+  padding-top: 8px;
+}
+.what_student img {
+  border-radius: 100px;
+  height: 100px;
+  width: 100px;
+}
+/* Student end */
+/* Contact form start */
+.contact_us h1:after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 5px;
+  background: #f7444e;
+  margin: 10px auto 10px;
+}
+.contact_us h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Monsterrat", sans-serif;
+  padding-top: 40px;
+}
+.contact_us {
+  font-family: sans-serif;
+}
+.contact-us-box {
+  margin-left: 388px;
+  margin-top: 77px;
+}
+.contact-box {
+  width: 500px;
+  background-color: white;
+  box-shadow: 0 0 20px 0 #999;
+  border: 1px solid black;
+}
+.contact_us form {
+  margin: 35px;
+  margin-bottom: 3px;
+}
+.input-field {
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+}
+.textarea-field {
+  height: 150px;
+  padding-top: 10px;
+}
+#btns {
+  border-radius: 20px;
+  color: white;
+  margin-top: 18px;
+  padding: 10px;
+  background-color: rgb(84, 83, 83);
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  margin-left: 154px;
+  margin-bottom: 20px;
+}
+/* form end */
+.developer {
+  background-color: rgb(32, 31, 31);
+  color: white;
+  font-family: "Popins", sans-serif;
+  margin-top: 0;
+}
+.developer p {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 997px;
+  font-size: 17px;
+}

@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  padding: 0 0;
+}
+/* nav bar css start */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  transition: all 0.2s;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  color: white;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  align-items: right;
+  font-size: 18px;
+  padding: 0px;
+  justify-content: space-between;
+}
+.navbar ul li {
+  padding: 10px;
+  margin: 10px;
+  margin-top: 10px;
+}
+.logo {
+  margin-top: 19px;
+  margin-left: 22px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.navbar ul li ul.dropdown li {
+  display: block;
+}
+.navbar ul li ul.dropdown {
+  width: 15%;
+  background: black;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  border: 1px solid white;
+  margin-top: 10px;
+  margin-right: 5px;
+  font-size: 13px;
+}
+.navbar ul li:hover {
+  border-bottom: 2px solid white;
+}
+.navbar ul li:hover ul.dropdown {
+  display: block;
+}
+.navbar ul li:hover ul.dropdown li {
+  border-bottom: 1px solid white;
+}
+/* nav bar css end */
+/* footer css start  */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(32, 31, 31);
+}
+.contact {
+  margin-left: 10px;
+}
+.company ul {
+  list-style: none;
+  color: white;
+}
+.contact ul {
+  list-style: none;
+  color: white;
+  margin-right: 10px;
+}
+.faculties ul {
+  list-style: none;
+  color: white;
+}
+.company ul li {
+  padding: 12px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.contact ul li {
+  padding: 12px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.faculties ul li {
+  padding: 12px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.company ul h1 {
+  font-size: 27px;
+}
+.contact ul h1 {
+  font-size: 27px;
+}
+.faculties ul h1 {
+  font-size: 27px;
+}
+.company ul li a {
+  text-decoration: none;
+  color: white;
+}
+.contact ul li a {
+  text-decoration: none;
+  color: white;
+}
+.faculties ul li a {
+  text-decoration: none;
+  color: white;
+}
+/* footer css end */
+/* body css start */
+.container {
+  background-image: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8)),
+    url("img/DSC_7218.jfif");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 100%;
+  padding-bottom: 68px;
+  padding-top: 58px;
+}
+.container h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin-top: 0;
+  color: white;
+}
+.container .about {
+  margin-left: 270px;
+  margin-right: 270px;
+  background-color: rgb(189, 188, 188);
+  padding: 30px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 20px;
+}
+.container .about p a {
+  text-decoration: none;
+  color: #3c00a0;
+}
+.container .after {
+  margin-top: 65px;
+}
+.developer {
+  background-color: rgb(32, 31, 31);
+  color: white;
+  font-family: "Popins", sans-serif;
+  margin-top: 0;
+}
+.developer p {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 997px;
+  font-size: 17px;
+}

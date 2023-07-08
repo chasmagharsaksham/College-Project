@@ -1,0 +1,259 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* nav bar css start */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  transition: all 0.2s;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  color: white;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  align-items: right;
+  font-size: 18px;
+  padding: 0px;
+  justify-content: space-between;
+}
+.navbar ul li {
+  padding: 10px;
+  margin: 10px;
+  margin-top: 10px;
+}
+.logo {
+  margin-top: 19px;
+  margin-left: 22px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.navbar ul li ul.dropdown li {
+  display: block;
+}
+.navbar ul li ul.dropdown {
+  width: 15%;
+  background: black;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  border: 1px solid white;
+  margin-top: 10px;
+  margin-right: 5px;
+  font-size: 13px;
+}
+.navbar ul li:hover {
+  border-bottom: 2px solid white;
+}
+.navbar ul li:hover ul.dropdown {
+  display: block;
+}
+.navbar ul li:hover ul.dropdown li {
+  border-bottom: 1px solid white;
+}
+/* nav bar css end */
+/* footer css start  */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(32, 31, 31);
+}
+.contact {
+  margin-left: 10px;
+}
+.company ul {
+  list-style: none;
+  color: white;
+}
+.contact ul {
+  list-style: none;
+  color: white;
+}
+.faculties ul {
+  list-style: none;
+  color: white;
+}
+.company ul li {
+  padding: 12px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.contact ul li {
+  padding: 12px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.faculties ul li {
+  padding: 12px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.company ul h1 {
+  font-size: 27px;
+}
+.contact ul h1 {
+  font-size: 27px;
+}
+.faculties ul h1 {
+  font-size: 27px;
+}
+.company ul li a {
+  text-decoration: none;
+  color: white;
+}
+.contact ul li a {
+  text-decoration: none;
+  color: white;
+}
+.faculties ul li a {
+  text-decoration: none;
+  color: white;
+}
+/* footer css end */
+/* Body css start */
+
+.container ul {
+  list-style: none;
+}
+
+.infrastructure {
+  display: none;
+}
+#introductionpara {
+  display: block;
+}
+#visionpara {
+  display: block;
+}
+#objectivepara {
+  display: none;
+}
+#infrastructurepara {
+  display: none;
+}
+.container ul h1 {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.welcome {
+  text-align: center;
+  margin: auto;
+  padding-top: 48px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  color: white;
+}
+.box {
+  background-color: rgb(189, 188, 188);
+  border-radius: 33px;
+  margin-left: 84px;
+  margin-right: 84px;
+  margin-top: 60px;
+}
+.box p {
+  margin-top: 29px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: justify;
+  padding-bottom: 31px;
+}
+.intro {
+  text-align: center;
+  padding-top: 31px;
+  font-family: "Montserrat", sans-serif;
+}
+.bg {
+  background-image: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8)),
+    url("img/pngtree-youth-does-not-graduate-decisive-battle-college-entrance-examination-poster-background-image_145949.jpg");
+}
+
+.container {
+  padding-bottom: 60px;
+}
+.para {
+  background-color: rgb(189, 188, 188);
+  border-radius: 33px;
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-top: 50px;
+}
+.para h1 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 31px;
+}
+.para p {
+  margin-bottom: 0px;
+  margin-top: 29px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: justify;
+  padding-bottom: 31px;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 130px;
+}
+.list li {
+  background-color: rgb(189, 188, 188);
+  border-radius: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 35px;
+}
+.list li h1 {
+  font-size: 23px;
+}
+.aboutus {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 55px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  color: white;
+}
+.list li a {
+  text-decoration: none;
+  color: black;
+}
+#visionh1 {
+  display: block;
+}
+#infrastructureh1 {
+  display: none;
+}
+#objectiveh1 {
+  display: none;
+}
+/* Body css end */
+.developer {
+  background-color: rgb(32, 31, 31);
+  color: white;
+  font-family: "Popins", sans-serif;
+  margin-top: 0;
+}
+.developer p {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 997px;
+  font-size: 17px;
+}
+
+
+
+
+
+

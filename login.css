@@ -1,0 +1,227 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* nav bar css start */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  transition: all 0.2s;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  color: white;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  align-items: right;
+  font-size: 18px;
+  padding: 0px;
+  justify-content: space-between;
+}
+.navbar ul li {
+  padding: 10px;
+  margin: 10px;
+  margin-top: 10px;
+}
+.logo {
+  margin-top: 19px;
+  margin-left: 22px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.navbar ul li ul.dropdown li {
+  display: block;
+}
+.navbar ul li ul.dropdown {
+  width: 15%;
+  background: black;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  border: 1px solid white;
+  margin-top: 10px;
+  margin-right: 5px;
+  font-size: 13px;
+}
+.navbar ul li:hover {
+  border-bottom: 2px solid white;
+}
+.navbar ul li:hover ul.dropdown {
+  display: block;
+}
+.navbar ul li:hover ul.dropdown li {
+  border-bottom: 1px solid white;
+}
+/* nav bar css end */
+/* form css start */
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8)),
+    url("img/289616118_1042768549701129_5104261717617705836_n.jpg");
+  background-position: center;
+  background-size: cover;
+  /* position: relative; */
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.form-box {
+  width: 26%;
+  position: relative;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 50px 60px 70px;
+  text-align: center;
+}
+.form-box h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  margin-bottom: 60px;
+  color: #3c00a0;
+  position: relative;
+}
+.form-box h1::after {
+  content: "";
+  width: 30px;
+  height: 4px;
+  border-radius: 3px;
+  background: #3c00a0;
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.input-field {
+  background: #eaeaea;
+  margin: 15px 0;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  max-height: 65px;
+  transition: max-height 0.5s;
+  overflow: hidden;
+}
+input {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 18px 15px;
+}
+.input-field i {
+  margin-left: 15px;
+  color: #999;
+}
+form p {
+  text-align: left;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  display: none;
+}
+form p a {
+  text-decoration: none;
+  color: #3c00a0;
+}
+.btn-field {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.btn-field button {
+  flex-basis: 49%;
+  background: #3c00a0;
+  color: white;
+  height: 40px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: background 1s;
+}
+.input-group {
+  height: 222px;
+}
+.btn-field button.disable {
+  background: #eaeaea;
+  color: #555;
+}
+/* form css end */
+/* footer css start  */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(32, 31, 31);
+}
+.contact {
+  margin-left: 10px;
+}
+.company ul {
+  list-style: none;
+  color: white;
+}
+.contact ul {
+  list-style: none;
+  color: white;
+}
+.faculties ul {
+  list-style: none;
+  color: white;
+}
+.company ul li {
+  padding: 12px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.contact ul li {
+  padding: 12px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.faculties ul li {
+  padding: 12px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.company ul h1 {
+  font-size: 27px;
+}
+.contact ul h1 {
+  font-size: 27px;
+}
+.faculties ul h1 {
+  font-size: 27px;
+}
+.company ul li a {
+  text-decoration: none;
+  color: white;
+}
+.contact ul li a {
+  text-decoration: none;
+  color: white;
+}
+.faculties ul li a {
+  text-decoration: none;
+  color: white;
+}
+/* footer css end */
+.developer {
+  background-color: rgb(32, 31, 31);
+  color: white;
+  font-family: "Popins", sans-serif;
+  margin-top: 0;
+}
+.developer p {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 997px;
+  font-size: 17px;
+}
