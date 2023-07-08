@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NCCS-About us</title>
+    <link rel="stylesheet" href="about.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--navbar-->
+    <div class="navbar">
+        <div class="logo"><img src="img/logo.png"></div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Faculties</a>
+                <ul  class="dropdown">
+                    <li><a href="hotel.html">Hotel management</a></li>
+                    <li><a href="computer.html">Computer science</a></li>
+                </ul></li>
+               
+            <li><a href="about.html">About us</a></li>
+            <li><a  href="login.html">Log-in</a></li>
+        </ul>
+    </div>
+    <!--navbar end-->
+    <!--body start-->
+<div class="bg">
+    <h1 class="welcome">Welcome to NCCS</h1>
+        <div class="box">
+    <h1 class="intro">Introduction</h1>
+    <p>NCCS is truly an institution on the move, committed towards excellence in the field of education. Focusing in the field of Information Technology & Management, NCCS provides a best opportunity for the students to have allround development. Its surplus extracurricular activities, games and participation in inter college events bring forth all the talents of the young minds to take the challenges of this century to stand as the best in every aspect of the life.</p>
+    </div>
+
+
+
+<h1 class="aboutus">About us</h1>
+
+      <div class="container">
+    <ul class="list">
+        <li><a href=""><h1 id="vision" onmouseover="show_vision()">Vision and mission</h1></li></a>
+        <li><a href=""><h1 id="infrastructure" onmouseover="show_infrastructure()">Infrastructure and Environment</h1></a></li>
+        <li><a href=""><h1 id="objective" onmouseover="show_objective()">Objectives</h1></a></li>
+    </ul>
+    <div class="para">
+        <h1 id="visionh1">Vision and mission</h1>
+        <h1 id="infrastructureh1">Infrastructure and Environment</h1>
+        <h1 id="objectiveh1">Objectives</h1>
+    
+        <p id="visionpara">We believe engagement in a diverse and supportive environment is critical to student success. To foster this engagement, we will surround students with diverse peers,
+             high-quality faculty and staff, strong student advising and co-curricular programs, successful and involved alumni and corporate partners, and by building applied academic programs and pursuing targeted initiatives.
+              Our academic programs will have an experiential focus and be competitive with the best programs among our peer institutions. </p></li>
+        <p id="objectivepara">The primary objective of a college is to provide high-quality education and training to its students. This involves offering a wide range of programs and courses that are designed to meet the needs of students with varying interests and career aspirations. Another important objective is to create a supportive and inclusive learning environment that fosters academic excellence, personal growth, and social responsibility. This includes providing access to modern facilities and technologies, as well as opportunities for students to engage in extracurricular activities and community service.</p></li>
+        <p id="infrastructurepara">The infrastructure and environment of a college play a crucial role in shaping the educational experience of students and preparing them for successful careers and leadership roles in their chosen fields. By investing in modern facilities and technologies, promoting diversity and inclusion, and embracing sustainability, colleges can create a positive and supportive environment that inspires learning, innovation, and personal growth. So, NCCS complex is well equipped for imparting quality education and overall growth of the students. The complexes are well furnished and equipped with modern services required by the college for teaching and learning.</p></li>
+    
+    </div>
+</div>
+
+</div>
+    <!--body end-->
+      <!--footer starts here-->
+   <footer>
+    <div class="company">
+        <ul>
+            <li><h1>Company</h1></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="login.html" >Log-in</a></li>
+        </ul>
+    </div>
+    <div class="faculties">
+        <ul>
+            <li><h1>Our Faculties</h1></li>
+            <li><a href="hotel.html">Hotel Management</a></li>
+            <li><a href="computer.html">Computer Science</a></li>
+        </ul>
+    </div>
+    <div class="contact">
+        <ul>
+            <li><h1>Contact us</h1></li>
+            <li>Facebook: <a href="https://www.facebook.com/nccspaknajol" target="_blank">NCCS</a></li>
+            <li>Phone: 9801901943</li>
+            <li>Main website: <a href='https://www.nccs.edu.np/index' target="_blank">nccs.edu.np</a></li>
+           
+        </ul>
+    </div>
+   </footer>
+   <div class="developer">
+      <p>Developed By: Saksham Adhikari</p>
+    </div>
+    <!--footer end-->
+    <script>
+        let vision = document.getElementById('vision');
+        let introduction = document.getElementById('introduction');
+        let objective = document.getElementById('objective');
+        let infrastructure = document.getElementById('infrastructure');
+        let visionpara = document.getElementById('visionpara');
+        let objectivepara = document.getElementById('objectivepara');
+        let introductionpara = document.getElementById('introductionpara');
+        let infrastructurepara = document.getElementById('infrastructurepara');
+        let infrastructureh1 = document.getElementById('infrastructureh1');
+        let visionh1 = document.getElementById('visionh1');
+        let objectiveh1 = document.getElementById('objectiveh1');
+        
+        function show_vision(){
+            if(visionpara.style.display != 'block'){
+                visionpara.style.display = 'block';
+                visionh1.style.display = 'block';
+                objectivepara.style.display = 'none';
+                objectiveh1.style.display = 'none';
+                infrastructurepara.style.display = 'none';
+                infrastructureh1.style.display = 'none';
+            }
+        }
+        function show_objective(){
+            if(objectivepara.style.display != 'block'){
+                visionpara.style.display = 'none';
+                visionh1.style.display = 'none';
+                objectivepara.style.display = 'block';
+                objectiveh1.style.display = 'block';
+                infrastructurepara.style.display = 'none';
+                infrastructureh1.style.display = 'none';
+
+            }
+        }
+        function show_infrastructure(){
+            if(infrastructurepara.style.display != 'block'){
+                visionpara.style.display = 'none';
+                visionh1.style.display = 'none';
+                objectiveh1.style.display = 'none';
+                objectivepara.style.display = 'none';
+                infrastructurepara.style.display = 'block';
+                infrastructureh1.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
